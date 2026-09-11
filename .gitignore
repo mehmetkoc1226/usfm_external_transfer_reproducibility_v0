@@ -9,3 +9,5 @@ data/raw/
 external_models/
 *.pth
 *.pt
+
+usfm_external_transfer_reproducibility_v1/

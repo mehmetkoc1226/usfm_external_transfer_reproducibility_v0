@@ -1,0 +1,33 @@
+{
+  "experiment": "Full Study Final Block: controlled full fine-tuning v1.1",
+  "models": [
+    "URFM",
+    "UltraFedFM",
+    "MAE"
+  ],
+  "sources": [
+    "BUSBRA",
+    "BREAST"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 30,
+  "patient_batch_size": 8,
+  "backbone_lr": 1e-05,
+  "head_lr": 0.0001,
+  "weight_decay": 0.01,
+  "scheduler": null,
+  "train_augmentation": {
+    "horizontal_flip_p": 0.5
+  },
+  "pooling": "CLS",
+  "BUS_BRA_training_unit": "patient; all patient images averaged at logit level before CE",
+  "BREAST_training_unit": "case",
+  "best_checkpoint": "highest source-validation AUROC after fixed 30-epoch training budget",
+  "target_tuning": false,
+  "bootstrap_reps": 3000,
+  "post_block": "WRITE_MANUSCRIPT_NO_RESCUE_EXPERIMENTS"
+}

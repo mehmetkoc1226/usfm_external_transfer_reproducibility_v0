@@ -1,0 +1,19 @@
+representation,source,seed,complete_30_epochs,best_epoch,best_source_val_auc,trainable_params,feature_protocol
+URFM-224,BUSBRA,42,True,30,0.7275862068965517,1538,frozen representation
+URFM-224,BUSBRA,43,True,30,0.7208924949290061,1538,frozen representation
+URFM-224,BUSBRA,44,True,30,0.725659229208925,1538,frozen representation
+URFM-224,BREAST,42,True,29,0.7080645161290322,1538,frozen representation
+URFM-224,BREAST,43,True,30,0.7112903225806452,1538,frozen representation
+URFM-224,BREAST,44,True,6,0.7999999999999999,1538,frozen representation
+ImageNet-MAE-224,BUSBRA,42,True,30,0.7198782961460446,1538,frozen representation
+ImageNet-MAE-224,BUSBRA,43,True,30,0.712576064908722,1538,frozen representation
+ImageNet-MAE-224,BUSBRA,44,True,30,0.7210953346855984,1538,frozen representation
+ImageNet-MAE-224,BREAST,42,True,2,0.6725806451612905,1538,frozen representation
+ImageNet-MAE-224,BREAST,43,True,30,0.5806451612903226,1538,frozen representation
+ImageNet-MAE-224,BREAST,44,True,9,0.646774193548387,1538,frozen representation
+DINOv2-518,BUSBRA,42,True,30,0.8467545638945233,1538,frozen representation
+DINOv2-518,BUSBRA,43,True,30,0.8503042596348884,1538,frozen representation
+DINOv2-518,BUSBRA,44,True,30,0.8396551724137932,1538,frozen representation
+DINOv2-518,BREAST,42,True,30,0.7483870967741935,1538,frozen representation
+DINOv2-518,BREAST,43,True,29,0.767741935483871,1538,frozen representation
+DINOv2-518,BREAST,44,True,30,0.7338709677419355,1538,frozen representation

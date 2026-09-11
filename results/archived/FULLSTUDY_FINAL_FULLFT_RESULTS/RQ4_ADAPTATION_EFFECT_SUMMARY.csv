@@ -1,0 +1,3 @@
+usfm,positive_adaptation_changes,negative_adaptation_changes,median_change_in_fm_minus_mae_auc,adaptation_effect_on_usfm_advantage
+URFM,2,2,-0.04514434192550304,MIXED_OR_STABLE
+UltraFedFM,0,4,-0.08450581496628301,ATTENUATED

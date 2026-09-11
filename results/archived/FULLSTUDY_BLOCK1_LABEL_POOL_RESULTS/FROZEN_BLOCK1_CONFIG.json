@@ -1,0 +1,33 @@
+{
+  "experiment": "Full Study Block 1: label efficiency + pooling sensitivity v1.0",
+  "models": [
+    "URFM",
+    "UltraFedFM",
+    "MAE"
+  ],
+  "usfms": [
+    "URFM",
+    "UltraFedFM"
+  ],
+  "fractions": [
+    0.2,
+    0.5,
+    1.0
+  ],
+  "replicate_seeds": [
+    42,
+    43,
+    44
+  ],
+  "replicate_definition": "same seed controls stratified subset sampling and head initialization",
+  "subset_nesting": "20% nested within 50% within each replicate",
+  "pooling": [
+    "CLS",
+    "MEAN_PATCH"
+  ],
+  "pooling_sensitivity_fraction": 1.0,
+  "head_epochs": 30,
+  "bootstrap_reps": 3000,
+  "target_tuning": false,
+  "rescue_models_allowed": false
+}

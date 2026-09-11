@@ -1,0 +1,5 @@
+{
+  "model": "vit_base_patch16_224.mae",
+  "feature_protocol": "ViT-B/16 CLS token, 224x224",
+  "feature_dim": 768
+}

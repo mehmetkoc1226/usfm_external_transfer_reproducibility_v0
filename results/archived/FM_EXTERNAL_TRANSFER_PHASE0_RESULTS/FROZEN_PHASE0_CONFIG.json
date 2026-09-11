@@ -1,0 +1,36 @@
+{
+  "experiment": "Ultrasound-specific FM external transfer Phase-0 v1.0",
+  "primary_comparison": "URFM-224 vs ImageNet-MAE-224",
+  "secondary_control": "DINOv2-518",
+  "sources": [
+    "BUSBRA",
+    "BREAST"
+  ],
+  "external_targets_by_source": {
+    "BUSBRA": [
+      "BREAST",
+      "BUSI"
+    ],
+    "BREAST": [
+      "BUSBRA",
+      "BUSI"
+    ]
+  },
+  "matched_input_size": 224,
+  "matched_pooling": "CLS token",
+  "matched_normalization": "ImageNet mean/std",
+  "source_split_seed": 42,
+  "head_seeds": [
+    42,
+    43,
+    44
+  ],
+  "head_epochs": 30,
+  "bootstrap_reps": 3000,
+  "target_tuning": false,
+  "decision_paths": [
+    "GO_ULTRASOUND_PRETRAINING_EXTERNAL_ADVANTAGE",
+    "GO_SOURCE_ADVANTAGE_FAILS_TO_TRANSFER",
+    "STOP_FM_EXTERNAL_TRANSFER_DIRECTION"
+  ]
+}

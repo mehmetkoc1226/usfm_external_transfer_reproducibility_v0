@@ -1,0 +1,38 @@
+{
+  "experimental_phase": "COMPLETE",
+  "next_step": "WRITE_MANUSCRIPT",
+  "claim_branch": "ONE_USFM_ADVANTAGE_PRESERVED_FULLFT_IS_MODEL_DEPENDENT",
+  "preservation_summary": [
+    {
+      "usfm": "URFM",
+      "positive_ft_scenarios": 4,
+      "median_ft_fm_minus_mae_auc": 0.0689782559477076,
+      "bootstrap_supported_scenarios": 4,
+      "advantage_preserved_after_fullft": true
+    },
+    {
+      "usfm": "UltraFedFM",
+      "positive_ft_scenarios": 0,
+      "median_ft_fm_minus_mae_auc": -0.05135362841779505,
+      "bootstrap_supported_scenarios": 0,
+      "advantage_preserved_after_fullft": false
+    }
+  ],
+  "adaptation_change_summary": [
+    {
+      "usfm": "URFM",
+      "positive_adaptation_changes": 2,
+      "negative_adaptation_changes": 2,
+      "median_change_in_fm_minus_mae_auc": -0.04514434192550304,
+      "adaptation_effect_on_usfm_advantage": "MIXED_OR_STABLE"
+    },
+    {
+      "usfm": "UltraFedFM",
+      "positive_adaptation_changes": 0,
+      "negative_adaptation_changes": 4,
+      "median_change_in_fm_minus_mae_auc": -0.08450581496628301,
+      "adaptation_effect_on_usfm_advantage": "ATTENUATED"
+    }
+  ],
+  "no_rescue_rule": "No additional USFM, PEFT method, readout, pooling rule, target tuning, dataset exclusion, or extra seed will be added after this result."
+}

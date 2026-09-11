@@ -1,0 +1,10 @@
+{
+  "container": "model",
+  "loaded_tensors": 150,
+  "checkpoint": "/content/drive/MyDrive/SPATIOSPECTRAL_PEFT_PILOT/external_models/UltraFedFM/official_pretrained_ultrafedfm_checkpoint.pth",
+  "forward_features_shape": [
+    1,
+    197,
+    768
+  ]
+}

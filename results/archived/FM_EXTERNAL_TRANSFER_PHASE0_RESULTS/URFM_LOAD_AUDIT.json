@@ -1,0 +1,25 @@
+{
+  "checkpoint": "/content/drive/MyDrive/SPATIOSPECTRAL_PEFT_PILOT/external_models/URFM/mae_vit_base_patch16_dec768d8b_all_biomedclip_1199.pth",
+  "checkpoint_top_level_keys": [
+    "epoch",
+    "state_dict",
+    "optimizer",
+    "model",
+    "ema_state_dict",
+    "loss_scaler"
+  ],
+  "loaded_encoder_tensors": 150,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "shape_mismatch": [],
+  "critical_keys_loaded": [
+    "patch_embed.proj.weight",
+    "cls_token",
+    "pos_embed",
+    "blocks.0.attn.qkv.weight",
+    "blocks.11.attn.qkv.weight",
+    "norm.weight",
+    "norm.bias"
+  ],
+  "feature_protocol": "ViT-B/16 CLS token, 224x224"
+}

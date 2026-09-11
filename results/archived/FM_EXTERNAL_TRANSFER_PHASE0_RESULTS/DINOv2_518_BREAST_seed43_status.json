@@ -1,0 +1,10 @@
+{
+  "representation": "DINOv2-518",
+  "source": "BREAST",
+  "seed": 43,
+  "complete_30_epochs": true,
+  "best_epoch": 29,
+  "best_source_val_auc": 0.767741935483871,
+  "trainable_params": 1538,
+  "feature_protocol": "frozen representation"
+}

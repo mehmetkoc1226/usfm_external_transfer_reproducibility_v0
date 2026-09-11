@@ -1,0 +1,10 @@
+{
+  "container": "state_dict",
+  "loaded_tensors": 150,
+  "checkpoint": "/content/drive/MyDrive/SPATIOSPECTRAL_PEFT_PILOT/external_models/URFM/mae_vit_base_patch16_dec768d8b_all_biomedclip_1199.pth",
+  "forward_features_shape": [
+    1,
+    197,
+    768
+  ]
+}

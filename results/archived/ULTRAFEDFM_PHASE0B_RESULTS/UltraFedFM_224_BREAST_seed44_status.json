@@ -1,0 +1,9 @@
+{
+  "representation": "UltraFedFM-224",
+  "source": "BREAST",
+  "seed": 44,
+  "complete_30_epochs": true,
+  "best_epoch": 28,
+  "best_source_val_auc": 0.7790322580645161,
+  "trainable_params": 1538
+}

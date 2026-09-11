@@ -1,0 +1,8 @@
+{
+  "checkpoint": "timm/vit_base_patch16_224.mae",
+  "forward_features_shape": [
+    1,
+    197,
+    768
+  ]
+}

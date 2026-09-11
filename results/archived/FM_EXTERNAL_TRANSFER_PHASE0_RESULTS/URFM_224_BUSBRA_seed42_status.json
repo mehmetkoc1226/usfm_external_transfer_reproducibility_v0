@@ -1,0 +1,10 @@
+{
+  "representation": "URFM-224",
+  "source": "BUSBRA",
+  "seed": 42,
+  "complete_30_epochs": true,
+  "best_epoch": 30,
+  "best_source_val_auc": 0.7275862068965517,
+  "trainable_params": 1538,
+  "feature_protocol": "frozen representation"
+}

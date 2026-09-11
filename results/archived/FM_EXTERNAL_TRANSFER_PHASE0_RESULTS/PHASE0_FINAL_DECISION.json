@@ -1,0 +1,28 @@
+{
+  "decision": "GO_ULTRASOUND_PRETRAINING_EXTERNAL_ADVANTAGE",
+  "GO_A": {
+    "pass": true,
+    "positive_external_scenarios": 4,
+    "required_positive_scenarios": 3,
+    "median_external_urfm_minus_mae_auc": 0.11040281864080495,
+    "required_median_external_effect": 0.03,
+    "bootstrap_supported_scenarios": 4,
+    "required_bootstrap_supported_scenarios": 3
+  },
+  "GO_B": {
+    "pass": false,
+    "source_effects": {
+      "BUSBRA": 0.006862745098039265,
+      "BREAST": 0.10645161290322573
+    },
+    "required_source_effect_each": 0.02,
+    "median_external_effect": 0.11040281864080495,
+    "maximum_external_median": 0.01,
+    "attenuated_scenarios": 2,
+    "required_attenuated_scenarios": 3,
+    "external_bootstrap_supported_scenarios": 4,
+    "maximum_supported_external_scenarios": 1
+  },
+  "post_decision_rule": "If STOP: do not launch LoRA/VPT/full fine-tuning or add another ultrasound FM to rescue the breast-US direction. If GO: design the full study before any new training.",
+  "provenance_boundary": "URFM named public breast pretraining sources do not list BUS-BRA, BrEaST, or BUSI; private-data overlap cannot be independently excluded."
+}

@@ -1,0 +1,10 @@
+{
+  "representation": "DINOv2-518",
+  "source": "BUSBRA",
+  "seed": 42,
+  "complete_30_epochs": true,
+  "best_epoch": 30,
+  "best_source_val_auc": 0.8467545638945233,
+  "trainable_params": 1538,
+  "feature_protocol": "frozen representation"
+}

@@ -1,0 +1,28 @@
+{
+  "experiment": "UltraFedFM second-USFM external transfer replication v1.0",
+  "model": "UltraFedFM ViT-Base pretrained checkpoint",
+  "common_feature_protocol": "224x224, ImageNet normalization, CLS token, frozen encoder",
+  "generic_baseline": "Phase-0A ImageNet-MAE-224",
+  "sources": [
+    "BUSBRA",
+    "BREAST"
+  ],
+  "scenarios": [
+    "BUSBRA->BREAST",
+    "BUSBRA->BUSI",
+    "BREAST->BUSBRA",
+    "BREAST->BUSI"
+  ],
+  "head_seeds": [
+    42,
+    43,
+    44
+  ],
+  "head_epochs": 30,
+  "bootstrap_reps": 3000,
+  "provenance_status": "SUPPORTIVE_REPLICATION_PRETRAINING_MEMBERSHIP_NOT_FULLY_RECONCILED",
+  "final_decisions": [
+    "GO_FULL_STUDY_TWO_USFM_REPLICATION",
+    "STOP_TWO_USFM_REPLICATION_GATE"
+  ]
+}

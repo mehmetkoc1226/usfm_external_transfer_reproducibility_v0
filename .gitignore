@@ -1,0 +1,11 @@
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+__pycache__/
+*.py[cod]
+results/recomputed/*
+!results/recomputed/.gitkeep
+data/raw/
+external_models/
+*.pth
+*.pt

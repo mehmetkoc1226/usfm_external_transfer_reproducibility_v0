@@ -1,0 +1,10 @@
+# Colab supplies torch/torchvision; install versions compatible with the active CUDA runtime.
+timm==1.0.28
+huggingface-hub
+kagglehub
+gdown
+numpy
+pandas
+scikit-learn
+pillow
+tqdm

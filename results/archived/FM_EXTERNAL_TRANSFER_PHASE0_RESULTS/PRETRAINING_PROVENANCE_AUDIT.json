@@ -1,0 +1,22 @@
+{
+  "URFM": {
+    "official_checkpoint": "QingboKang/URFM/mae_vit_base_patch16_dec768d8b_all_biomedclip_1199.pth",
+    "declared_pretraining_images": 1003465,
+    "declared_breast_sources": [
+      "BUV",
+      "ultrasoundcases.info",
+      "private"
+    ],
+    "evaluation_public_datasets_named_as_pretraining_sources": [],
+    "boundary": "Named public pretraining sources do not list BUS-BRA, BrEaST or BUSI; overlap with private data cannot be independently excluded."
+  },
+  "ImageNet_MAE": {
+    "model": "vit_base_patch16_224.mae",
+    "pretraining_domain": "ImageNet natural images",
+    "boundary": "Architecture-matched primary generic visual SSL baseline."
+  },
+  "DINOv2": {
+    "representation": "existing native-518 cache",
+    "boundary": "Secondary contextual control only; not architecture/resolution matched and dataset-level pretraining provenance is not audited here."
+  }
+}

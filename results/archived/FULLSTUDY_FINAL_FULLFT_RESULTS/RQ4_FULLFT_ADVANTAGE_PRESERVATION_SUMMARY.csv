@@ -1,0 +1,3 @@
+usfm,positive_ft_scenarios,median_ft_fm_minus_mae_auc,bootstrap_supported_scenarios,advantage_preserved_after_fullft
+URFM,4,0.0689782559477076,4,True
+UltraFedFM,0,-0.05135362841779505,0,False

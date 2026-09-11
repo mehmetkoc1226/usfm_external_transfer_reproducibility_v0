@@ -1,0 +1,30 @@
+[
+  {
+    "file": "UltraFedFM_Phase0B_Replication_v1_0.ipynb",
+    "uploaded_sha256": "24cec69ee136ad18282726c8aeba883d9f909058526035f088cc228abb1d3a26",
+    "code_sha256": "fbc844c380cef470f0208b33aba4c9ef0af34327baa03ba5bd3ad3725695a6e6",
+    "outputs_removed": true,
+    "code_cells_unchanged": true
+  },
+  {
+    "file": "FM_External_Transfer_Phase0_v1_1.ipynb",
+    "uploaded_sha256": "4f60063911a6afb49f77e1a2ef096abdaa492951e4d9f38053373061d7646a73",
+    "code_sha256": "ef691a1c012f30f29fea20274afc7d9a28a64adfa1cc91cf372a99089ce1279d",
+    "outputs_removed": true,
+    "code_cells_unchanged": true
+  },
+  {
+    "file": "FullStudy_Block1_LabelEfficiency_Pooling_v1_0.ipynb",
+    "uploaded_sha256": "b0e1d34da4131211324e9c32d0cbb17d6361c05bd9a885840271ce371249bdde",
+    "code_sha256": "e69cec3a83e79f7c2d38bd70d21bbc95561176dcf3be347587203ea6a0fa073e",
+    "outputs_removed": true,
+    "code_cells_unchanged": true
+  },
+  {
+    "file": "FullStudy_Final_Controlled_FullFT_v1_1.ipynb",
+    "uploaded_sha256": "8d6e4e70b7b9a8a7e2baab822397e382628dd6d2698e2f0d377b273b1fd36477",
+    "code_sha256": "d66d1d80551ebca3cc2ce093457c426a712dfbee314362b75027c72f7ba01df2",
+    "outputs_removed": true,
+    "code_cells_unchanged": true
+  }
+]

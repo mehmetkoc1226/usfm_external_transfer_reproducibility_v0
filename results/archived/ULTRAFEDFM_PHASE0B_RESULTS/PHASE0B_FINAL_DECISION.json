@@ -1,0 +1,21 @@
+{
+  "decision": "GO_FULL_STUDY_TWO_USFM_REPLICATION",
+  "gate_U_ultrafed_replication": {
+    "pass": true,
+    "positive_scenarios": 4,
+    "required_positive_scenarios": 3,
+    "median_ultrafed_minus_mae_auc": 0.043318362213561765,
+    "required_median_effect": 0.02,
+    "bootstrap_supported_scenarios": 3,
+    "required_bootstrap_supported_scenarios": 3
+  },
+  "gate_C_combined_two_usfm": {
+    "pass": true,
+    "positive_model_scenarios": 8,
+    "required_positive_model_scenarios": 6,
+    "combined_median_fm_minus_mae_auc": 0.058530305114291845,
+    "required_combined_median_effect": 0.03
+  },
+  "provenance_status": "UltraFedFM is supportive replication. The main article uses BUSI/BUS-BRA/BUS-UCLM as downstream/fairness datasets; exact public pretraining membership must be reconciled from Supplementary Table 1 before any zero-overlap claim.",
+  "post_decision_rule": "GO permits design of the full study. STOP means no label-efficiency, full-finetuning, PEFT, third-USFM, or other rescue experiment in this breast-US direction."
+}

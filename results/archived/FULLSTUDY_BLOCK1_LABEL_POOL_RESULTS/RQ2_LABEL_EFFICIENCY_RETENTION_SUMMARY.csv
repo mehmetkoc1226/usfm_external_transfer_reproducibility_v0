@@ -1,0 +1,7 @@
+usfm,fraction,positive_scenarios,median_fm_minus_mae_auc,bootstrap_supported_scenarios,retained_external_advantage
+URFM,0.2,4,0.14078765754967132,4,True
+URFM,0.5,4,0.09919363626457448,4,True
+URFM,1.0,4,0.11040281864080495,4,True
+UltraFedFM,0.2,4,0.09256112472032715,4,True
+UltraFedFM,0.5,4,0.04229016628262662,3,True
+UltraFedFM,1.0,4,0.043318362213561765,3,True

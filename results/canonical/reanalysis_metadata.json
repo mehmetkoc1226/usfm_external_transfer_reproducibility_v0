@@ -1,0 +1,51 @@
+{
+  "purpose": "Manuscript-audit reanalysis; does not establish provenance of old bootstrap arrays",
+  "repetitions": 3000,
+  "rng": "numpy.random.default_rng",
+  "seeds": [
+    101021,
+    101022,
+    101023,
+    101024,
+    101025,
+    101026,
+    101027,
+    101028
+  ],
+  "scenario_order": [
+    [
+      "BUSBRA",
+      "BREAST"
+    ],
+    [
+      "BUSBRA",
+      "BUSI"
+    ],
+    [
+      "BREAST",
+      "BUSBRA"
+    ],
+    [
+      "BREAST",
+      "BUSI"
+    ]
+  ],
+  "model_order": [
+    "URFM",
+    "UltraFedFM"
+  ],
+  "target_order": "unit_id string ascending",
+  "pairing": "same pathology-stratified indices across two models, three seeds, LP and FT within each contrast",
+  "validation": "first ten replicates of all 8 contrasts, 12 AUROCs per replicate, against sklearn",
+  "validated_auc_count": 960,
+  "max_auc_validation_error": 2.220446049250313e-16,
+  "numpy_version": "2.3.5",
+  "pandas_version": "2.2.3",
+  "sklearn_version": "1.8.0",
+  "input_sha256": {
+    "FULLFT_EXTERNAL_TARGET_SCORES.csv": "044de10887b4ec3368a79ecece804656ec74a0fae5ce451ad3a6ee555d9d4ca6",
+    "LINEAR_PROBE_TARGET_SCORES_RECOMPUTED.csv": "f29233ee84d2a638a815418ccf1a3c447043454d2d4ce6d27616da9cd7b3ca66",
+    "RQ4_ADAPTATION_CHANGE_BOOTSTRAP.csv": "c71b49f8ac9fa5b0d199a11d43582d2cc0f305a4179333ad301ac2ecc943af8a",
+    "RQ4_ADAPTATION_CHANGE_IN_USFM_ADVANTAGE.csv": "bbcad07adf04bc837daf3414d7c6ac13ae74f4c220c7acda56592b91146341b1"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "block": "Full Study Block 1",
+  "rq2_label_efficiency": {
+    "retention_summary": [
+      {
+        "usfm": "URFM",
+        "fraction": 0.2,
+        "positive_scenarios": 4,
+        "median_fm_minus_mae_auc": 0.14078765754967132,
+        "bootstrap_supported_scenarios": 4,
+        "retained_external_advantage": true
+      },
+      {
+        "usfm": "URFM",
+        "fraction": 0.5,
+        "positive_scenarios": 4,
+        "median_fm_minus_mae_auc": 0.09919363626457448,
+        "bootstrap_supported_scenarios": 4,
+        "retained_external_advantage": true
+      },
+      {
+        "usfm": "URFM",
+        "fraction": 1.0,
+        "positive_scenarios": 4,
+        "median_fm_minus_mae_auc": 0.11040281864080495,
+        "bootstrap_supported_scenarios": 4,
+        "retained_external_advantage": true
+      },
+      {
+        "usfm": "UltraFedFM",
+        "fraction": 0.2,
+        "positive_scenarios": 4,
+        "median_fm_minus_mae_auc": 0.09256112472032715,
+        "bootstrap_supported_scenarios": 4,
+        "retained_external_advantage": true
+      },
+      {
+        "usfm": "UltraFedFM",
+        "fraction": 0.5,
+        "positive_scenarios": 4,
+        "median_fm_minus_mae_auc": 0.04229016628262662,
+        "bootstrap_supported_scenarios": 3,
+        "retained_external_advantage": true
+      },
+      {
+        "usfm": "UltraFedFM",
+        "fraction": 1.0,
+        "positive_scenarios": 4,
+        "median_fm_minus_mae_auc": 0.043318362213561765,
+        "bootstrap_supported_scenarios": 3,
+        "retained_external_advantage": true
+      }
+    ]
+  },
+  "rq3_pooling_control": {
+    "summary": [
+      {
+        "usfm": "URFM",
+        "positive_mean_patch_scenarios": 4,
+        "median_mean_patch_fm_minus_mae_auc": 0.060651629072681755,
+        "pooling_stable": true
+      },
+      {
+        "usfm": "UltraFedFM",
+        "positive_mean_patch_scenarios": 4,
+        "median_mean_patch_fm_minus_mae_auc": 0.024841944068582034,
+        "pooling_stable": true
+      }
+    ],
+    "both_usfms_pooling_stable": true
+  },
+  "next_step": "PROCEED_TO_FROZEN_FULL_FINETUNING_BLOCK",
+  "rescue_rule": "No third USFM, PEFT, target tuning, or alternative pooling may be added to rescue a failed pooling control."
+}

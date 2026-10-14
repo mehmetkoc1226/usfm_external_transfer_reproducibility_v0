@@ -1,0 +1,19 @@
+{
+  "primary_external_evaluations": 72,
+  "metric_scalars": 144,
+  "loo_diagnostic": "Post-hoc descriptive omission of each of 3 completed seeds; not a confidence interval or population jackknife",
+  "lp_heads": 18,
+  "best_epoch_30": 11,
+  "best_epoch_28_to_30": 15,
+  "same_source_split": true,
+  "primary_scores_sha256": {
+    "LINEAR_PROBE_TARGET_SCORES_RECOMPUTED.csv": "f29233ee84d2a638a815418ccf1a3c447043454d2d4ce6d27616da9cd7b3ca66",
+    "FULLFT_EXTERNAL_TARGET_SCORES.csv": "044de10887b4ec3368a79ecece804656ec74a0fae5ce451ad3a6ee555d9d4ca6"
+  },
+  "new_encoder_training": false,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  }
+}

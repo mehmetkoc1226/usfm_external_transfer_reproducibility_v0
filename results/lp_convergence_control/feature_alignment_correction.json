@@ -1,0 +1,7 @@
+{
+  "correction": "BUSI feature cache follows train then val order; public manifest preserves lexical image order.",
+  "evidence": "Original phase-0 notebook lines forming busi_all; six archived original seed-42 heads reproduce all twelve AUROC and AP pairs after alignment.",
+  "scope": "Evaluation row alignment only; source fits, selected C values, fitted source parameters and selection seal unchanged.",
+  "supersedes": "Intermediate revision control estimates for BUSI; no original study result changed.",
+  "posthoc": true
+}

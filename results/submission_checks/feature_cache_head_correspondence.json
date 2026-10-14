@@ -1,0 +1,9 @@
+{
+  "scope": "Six original seed-42 heads; all nine model/dataset feature arrays used",
+  "external_evaluations": 12,
+  "score_tolerance": 2e-05,
+  "max_absolute_score_error": 1.1920928955078125e-06,
+  "metrics_identical": true,
+  "no_arbitrary_pickle_globals": true,
+  "note": "Small float32 differences reflect equivalent image-score and patient-feature averaging or BLAS order."
+}

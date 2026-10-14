@@ -8,7 +8,7 @@ The study used these lesion-only analysis cohorts:
 
 | Dataset | Analysis unit | Benign | Malignant | Total |
 | --- | ---: | ---: | ---: | ---: |
-| BUS-BRA | patient | 721 | 343 | 1,064 |
+| BUS-BRA | patient | 722 | 342 | 1,064 |
 | BrEaST | case | 154 | 98 | 252 |
 | BUSI | image | 437 | 210 | 647 |
 

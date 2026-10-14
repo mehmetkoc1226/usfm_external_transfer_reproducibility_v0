@@ -1,0 +1,31 @@
+{
+  "analysis": "post-hoc frozen-head sensitivity; not an original RQ or preregistration",
+  "solver": "sklearn LogisticRegression lbfgs",
+  "penalty": "L2",
+  "C_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "max_iter": 5000,
+  "tol": 1e-08,
+  "feature_scaling": "StandardScaler fit on source-training units only",
+  "selection": "maximum source-validation AUROC; exact ties prefer smallest C",
+  "class_weights": "N/(2*n_c), normalized to mean one; source-training counts only",
+  "analysis_units": "BUSBRA mean image features by patient; BREAST case; BUSI image",
+  "source_splits": "unchanged archived seed-42 splits",
+  "training_random_state": 42,
+  "target_selection": false,
+  "training_runs_per_model_source": 1,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0"
+  }
+}

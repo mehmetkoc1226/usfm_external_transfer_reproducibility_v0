@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or its archived results, please cite the associated article."
-title: "Adaptation-Dependent External Transfer of Ultrasound Foundation Models in Breast Ultrasound"
+title: "External Breast Lesion Classification with Ultrasound Foundation Models: Frozen Probing versus Shared Fine-Tuning"
 type: software
 authors:
   - family-names: "Koc"

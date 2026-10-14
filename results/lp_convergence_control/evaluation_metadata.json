@@ -1,0 +1,55 @@
+{
+  "selection_verified": true,
+  "selection_seal_sha256": "55ba787d40f2ba87c9626b9bcb370c88aad1a481babaac64382fe637c9fe90ba",
+  "feature_input_sha256": {
+    "URFM_BREAST": {
+      "feature": "26fa85645ee8eb3dce881578ad97ac2a0b80a0053f15c04b9147082e4e431121",
+      "done": "c8a8ffee5922eaf497a428be213cd55bc529b7ef5a6a9c50ff6d7cf733a7e4a9",
+      "manifest": "03da08f244154ba2c082d2d8a560afc16391e3137e6e8b14817b494256695518"
+    },
+    "URFM_BUSI": {
+      "feature": "388bb8b728fdc3cfc86452f4e945064830f221f078cfd778a6c6e5b59c2e88d8",
+      "done": "901a525f61af0bba626e6d361bfab93bd451e4688f2eca346bc3854989213d78",
+      "manifest": "d49227e993cd36de171694f8187ada0906124c183e2b0b7ecfb3bbae9e9e54d7"
+    },
+    "URFM_BUSBRA": {
+      "feature": "04124c5a63e0cb8934db7157945ad56801688ac4b80b6a99ba970dfa67927b7d",
+      "done": "e4f6525a1526670f8480ab0cf6876d3e165ffb871aea7aa3865634459cf71420",
+      "manifest": "a877fb28912622f9201c22986d373582103ecda8ae8ab8c27e23f0d6bc31ee2b"
+    },
+    "UltraFedFM_BREAST": {
+      "feature": "afbd78ac31d4554f4441d72a52edc73e447705ac1459232b639464438a41c064",
+      "done": "c8a8ffee5922eaf497a428be213cd55bc529b7ef5a6a9c50ff6d7cf733a7e4a9",
+      "manifest": "03da08f244154ba2c082d2d8a560afc16391e3137e6e8b14817b494256695518"
+    },
+    "UltraFedFM_BUSI": {
+      "feature": "e38d50aa2684077ef6dd344450c0e4e1229e11b6e00afb87ea948eb730c44728",
+      "done": "901a525f61af0bba626e6d361bfab93bd451e4688f2eca346bc3854989213d78",
+      "manifest": "d49227e993cd36de171694f8187ada0906124c183e2b0b7ecfb3bbae9e9e54d7"
+    },
+    "UltraFedFM_BUSBRA": {
+      "feature": "805e0f697f0fbeba0e1ac666ef6b2e11fe2c656dd3c518cc211c8b024f8ae071",
+      "done": "e4f6525a1526670f8480ab0cf6876d3e165ffb871aea7aa3865634459cf71420",
+      "manifest": "a877fb28912622f9201c22986d373582103ecda8ae8ab8c27e23f0d6bc31ee2b"
+    },
+    "MAE_BREAST": {
+      "feature": "dd74d11ab32d0cb2c469e9b4878f1622e988bc7e618aa46c4f369ae40b4f35d4",
+      "done": "c8a8ffee5922eaf497a428be213cd55bc529b7ef5a6a9c50ff6d7cf733a7e4a9",
+      "manifest": "03da08f244154ba2c082d2d8a560afc16391e3137e6e8b14817b494256695518"
+    },
+    "MAE_BUSI": {
+      "feature": "dc81f2b70df964d47fb57b549f60a713c3ace767dc56817151e3b8d7d878b328",
+      "done": "901a525f61af0bba626e6d361bfab93bd451e4688f2eca346bc3854989213d78",
+      "manifest": "d49227e993cd36de171694f8187ada0906124c183e2b0b7ecfb3bbae9e9e54d7"
+    },
+    "MAE_BUSBRA": {
+      "feature": "442e5c74e5e4aaea91078cd3cc544f4f3e9c84fd21eafc37a994d416f6ade0d3",
+      "done": "e4f6525a1526670f8480ab0cf6876d3e165ffb871aea7aa3865634459cf71420",
+      "manifest": "a877fb28912622f9201c22986d373582103ecda8ae8ab8c27e23f0d6bc31ee2b"
+    }
+  },
+  "external_rows": 12,
+  "new_encoder_training": false,
+  "primary_results_replaced": false,
+  "BUSI_cache_order": "manifest train rows followed by val rows, matching the original notebook"
+}

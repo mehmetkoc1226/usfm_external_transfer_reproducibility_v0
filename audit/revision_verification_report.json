@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "cohort_unit_counts_verified": {
+    "BUSBRA": {
+      "benign": 722,
+      "malignant": 342
+    },
+    "BREAST": {
+      "benign": 154,
+      "malignant": 98
+    },
+    "BUSI": {
+      "benign": 437,
+      "malignant": 210
+    }
+  },
+  "primary_evaluations_verified": 72,
+  "primary_metric_scalars": 144,
+  "seed_omissions_verified": 24,
+  "complete_LP_histories": 18,
+  "source_candidate_fits_verified": 42,
+  "selected_source_heads": 6,
+  "control_external_evaluations_verified": 12,
+  "control_positive_margins": {
+    "URFM": 4,
+    "UltraFedFM": 1
+  },
+  "feature_cache_head_metric_pairs_verified": 12,
+  "source_selection_seal_verified": true
+}
